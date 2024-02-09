@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "52745094-2c3a-4774-a499-a7295664e3b4",
+  "alias": "DirectoryWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart","TeamsTab", "SharePointFullPage"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "SPFx WebParts" },
+    "title": { "default": "Deal Directory" },
+    "description": { "default": "Deal Directory" },
+    "officeFabricIconFontName": "SearchAndApps",
+    "properties": {
+      "title": "Deal",
+      "pageSize": 20
+    }
+  }]
+}

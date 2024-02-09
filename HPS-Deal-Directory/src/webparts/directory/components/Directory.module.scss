@@ -1,0 +1,320 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.directory {
+
+// New CSS start
+
+.deal_dire_maindiv{
+	width: 100%;
+  float: left;
+}
+.deal_dire_filterpanelOne{
+	//width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.deal_dire_itemtype{
+	//width: 22%;
+  float: left;
+}
+.deal_dire_itemtype > div{
+  width: 95px;
+}
+
+.deal_dire_displaytype{
+	//width: 22%;
+  float: left;
+}
+.deal_dire_mainsearch{
+	//width: 22%;
+  float: left;
+}
+.deal_dire_resetsearch{
+  //width: 22%;
+  float: left;
+}
+.deal_dire_filterpanelOne{
+	padding-left: 2%;
+}
+.deal_dire_itemtype{
+	padding-left:1%;
+}
+.deal_dire_displaytype{
+	padding-left:1%;
+  padding-right:1%;
+  //width: 90px;
+  width: 100px;
+}
+
+.deal_dire_mainsearch{
+	padding-right:1%;
+  padding-left:1%;
+}
+
+.deal_dire_resetsearch{
+	padding-left:1%;
+}
+.reset_btn{
+	//width: 25%;
+  width: 32px;
+}
+.reset_btn:hover{
+	cursor: pointer;
+}
+.mainsearch_txt{
+	width: 100%;
+}
+.deal_dire_distypeControl{
+	width: 100%;
+}
+.deal_dire_itemtypeControl{
+	width: 100%;
+}
+.deal_dire_filterpanelTwo{
+  float: left;
+  padding: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+// .deal_dire_filterpanelTwo span{
+// 		padding: 4px;
+// }
+.deal_dire_filterpanelThree{
+		//width: 94%;
+		//padding-left: 3%;
+		//padding-right: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+// .deal_dire_filterIssuer{
+// 	width: 22%;
+// }
+// .deal_dire_filterPlatform{
+// 	width: 22%;
+// }
+    
+//.deal_dire_filterDropdown div{
+   //width: 90%;
+//   width: 90px;
+// }
+// .deal_dire_filterFund{
+// 	width: 22%;
+// }
+// .deal_dire_filterCPS{
+// 	width: 22%;
+// }
+// .deal_dire_filterDTR{
+// 	width: 22%;
+// }
+// .deal_dire_filterIndustry{
+// 	width: 22%;
+// }
+// .deal_dire_filterCountry{
+// 	width: 22%;
+// }
+// .deal_dire_filterPrjName{
+// 	width: 22%;
+// }
+
+.deal_dire_filterIssuer
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;  
+}
+
+.deal_dire_filterPlatform
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterFund
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterCPS
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterDTR
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterIndustry
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterCountry
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+.deal_dire_filterPrjName
+{	  
+  float: left;
+  padding: 3px;
+  width: 22.5%;
+}
+
+.deal_dire_tilesMaindiv{
+		width: 94%;
+		padding-left: 3%;
+		padding-right: 3%;
+}
+.deal_dire_tiles{
+	width: 24%;
+}
+//*{display: inline-block}
+//New CSS end
+
+  .dropDownSortBy {
+    margin-bottom: 15px;
+  }
+
+  .refreshImg{
+    width: 35px;
+  }
+
+  .refreshImg:hover{
+    cursor: pointer;
+  }
+  .searchBox {
+    width: "100%";
+    vertical-align: "middle";
+    margin-bottom: 25;
+    margin-left: 15%;
+  }
+  .noUsers {
+    margin-left: "auto";
+    margin-right: "auto";
+    text-align: "center";
+    padding-top: 40px;
+  }
+
+  .pivotItem {
+    overflow-wrap: break-word;
+  }
+  .pivotItem:hover {
+    border-style: solid;
+    border-width: 1.2;
+    border-color: #FF6328;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color:#FF6328;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+      BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  .alphabets {
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: normal;
+    text-align: center;
+  }
+  .searchTextBox {
+      min-width: 180px;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 25px;
+  }
+  .refinerSection{
+    max-height: 80px;
+    overflow: auto;
+  }
+  .refinerSection::-webkit-scrollbar {
+    width: 5px;
+  }
+  .refinerSection::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .refinerSection::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .refinerSection::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
